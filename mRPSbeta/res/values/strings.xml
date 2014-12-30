@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mRPSbeta</string>
+    <string name="bLog">Login</string>
+    <string name="tGender">Gender</string>
+    <string name="radM">M</string>
+    <string name="radF">F</string>
+    <string name="eUname">Enter Username</string>
+    <string name="eAge">Enter Age</string>
+    <string name="eGender">Enter Gender</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="homeScreen">Welcome to mobile Rock Paper Scissor beta!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="bStat">Stats</string>
+    <string name="bNewGame">Single Player</string>
+    <string name="bNewGameMulti">Multi Player</string>
+    <string name="title_activity_stat_screen">StatScreen</string>
+    <string name="tStatHeader">Game Stats!</string>
+    <string name="tFullStat"></string>
+    <string name="blank"></string>
+    <string name="bHowTo">Tutorial</string>
+    <string name="copyRight">Developed by Somnath Sarkar, 2014</string>
+    <string name="title_activity_game_arena">GameArena</string>
+    <string name="tTutorial">Welcome to the Tutorial for mobile Rock Paper Scissor (beta)
+             
+        This is a very simple game.
+        You have to choose among Rock, Paper and Scissor.
+        Rock v Paper = Paper wins.
+        Rock v Scissor = Rock wins.
+        Paper v Scissor = Scissor wins.
+        
+        To choose Paper   - draw a closed rectangle.
+        To choose Rock    - draw a closed circle.
+        To choose Scissor - draw a big, wide "V" sign, or simply draw a line across the screen.
+        
+        All drawings are to be made in the anti-clockwise direction, starting
+        from the top.
+        
+        After each game please go back to Welcome Screen and start again!
+        
+        Enjoy!!!
+        (c)Somnath Sarkar, 2014</string>
+    <string name="title_activity_game_tutorial">GameTutorial</string>
+    <string name="title_activity_test_screen">TestScreen</string>
+    <string name="title_activity_bmain">BMain</string>
+    <string name="bTurnOn">Turn On</string>
+    <string name="bVisible">Visible</string>
+    <string name="bListDev">List Devices</string>
+    <string name="bTurnOff">Turn Off</string>
+    <string name="bHost">Host Game</string>
+    <string name="bConnect">Connect</string>
+    <string name="title_activity_bmain_screen">Find Gamers-Bluetooth</string>
+
+</resources>

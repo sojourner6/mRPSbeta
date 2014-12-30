@@ -83,7 +83,7 @@ public class AcceptThread extends Thread
     	    	  msg.what = BMain.SOCKET_CONNECTED;
     	    	  msg.obj = mmSocket;
     	    	  mHandler.sendMessage(msg);
-    	    	  System.out.println("%%%%%%%%%%%%% Socket Value: " + conn.toString());
+    	    	  System.out.println("%%%%%%%%%%%% Socket Value: " + conn.toString());
     	    	  //mHandler.obtainMessage(BMain.SOCKET_CONNECTED, conn).sendToTarget();
     	    	  conn.start();
     	    } 
