@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:screenOrientation="portrait"
+    android:background="@drawable/mrps_bc"
+    tools:context="com.example.mrpsbeta.LogScreen" >
+
+    <EditText
+        android1:id="@+id/editText1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="76dp"
+        android1:layout_marginBottom="6dp"
+        android1:ems="10"
+        android1:hint="@string/eUname"
+        android1:inputType="text"
+        android1:maxLength="10"
+        android1:background="@color/white"
+        android1:textStyle="bold" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android1:id="@+id/editText2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/editText1"
+        android1:layout_centerHorizontal="true"
+        android1:ems="10"
+        android1:hint="@string/eAge"
+        android1:inputType="number"
+        android1:maxLength="3"
+        android1:background="@color/white"
+        android1:textStyle="bold" />
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/textView1"
+        android1:layout_below="@+id/editText2"
+        android1:layout_marginLeft="80dp" >
+
+        <RadioButton
+            android1:id="@+id/radio0"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:checked="true"
+            android1:text="@string/radM" />
+
+        <RadioButton
+            android1:id="@+id/radio1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="@string/radF" />
+    </RadioGroup>
+
+    <TextView
+        android1:id="@+id/textView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/editText2"
+        android1:layout_alignTop="@+id/radioGroup1"
+        android1:layout_marginTop="18dp"
+        android1:text="@string/tGender"
+        android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:onClick="takeToHome"
+        android:background="@color/orange"
+        android:text="@string/bLog"/>
+
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_centerHorizontal="true"
+        android1:text="@string/copyRight"
+        android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
